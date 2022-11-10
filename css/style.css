@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --color-primary: #326dee;
+  --color-secondary: #1ac888;
+  --color-danger: #d32752;
+  --color-success: #3BACD9;
+  --color-warning: #f6c31c;
+  --color-dark: #2E3640;
+  --color-light: #fff;
+  --color-1: #84878C;
+  --color-2: #D9D9D9;
+}
+
+.dark-theme {
+  --color-1: #fff;
+  --color-2: #D9D9D9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: pink;
+  width: 100vw;
+  height: 2rem;
+}
