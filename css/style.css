@@ -5,10 +5,11 @@
   --color-danger: #d32752;
   --color-success: #3BACD9;
   --color-warning: #f6c31c;
-  --color-dark: #2E3640;
+  --color-dark: #303746;
   --color-light: #fff;
   --color-1: #2E3640;
   --color-2: #D9D9D9;
+  --color-3: #212529;
   --main-font: poppins, sans-serif;
 }
 
@@ -53,7 +54,14 @@ a {
 }
 
 nav {
-  background-color: var(--color-2);
+  background-color: var(--color-dark);
+  color: var(--color-light);
   width: 100vw;
   height: 2rem;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+nav a {
+  color: var(--color-light);
 }
